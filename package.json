@@ -4,7 +4,7 @@
   "description": "Testing Heroku Deployment",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/akuma-phawx/heroku-hello-world/issues"
   },
-  "homepage": "https://github.com/akuma-phawx/heroku-hello-world#readme"
+  "homepage": "https://github.com/akuma-phawx/heroku-hello-world#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
